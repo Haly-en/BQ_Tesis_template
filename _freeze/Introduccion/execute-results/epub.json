@@ -1,0 +1,21 @@
+{
+  "hash": "e9fbff0b52e4c2e9e0f0af4c8d1a0100",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Introducción {#sec-Introduccion}\n\nAquí hay un footnote [^introduccion-1]\n\n[^introduccion-1]: Así aparece tu footnote\n\n::: {.callout-tip appearance=\"minimal\"}\n## Aquí va tip:\n:::\n\n\n## Una cita \n\nAquí va una cita. @knuth84\n\n\n## Experimental\n\nThe usual experimental details should appear here. This could include a table, which can be referenced as @tbl-example. @tbl-los_promedios Notice that the caption is positioned at the top of the table.\n\n| Header one  | Header two  |\n|-------------|-------------|\n| Entry one   | Entry two   |\n| Entry three | Entry four  |\n| Entry five  | Entry six   |\n| Entry seven | Entry eight |\n\n: An example table {#tbl-example}\n\n\n| Juego             | Compañia    | Clasificacion | Precio (MXN) |\n|-------------------|-------------|---------------|--------------|\n| Animal Crossing   | Nintendo    | E             | 1600         |\n| Persona 5         | Atlus       | T             | 1500         |\n| Final Fantasy VII | Square Enix | T             | 1500         |\n| Fortnite          | Epic Games  | M             | 0            |\n\n: Esta es una tabla de promedios {#tbl-los_promedios}\n\nYou may add footnotes to ables as illustrated (@tbl-notes).\n\n| Header one      | Header two  |\n|-----------------|-------------|\n| Entry one[^1]   | Entry two   |\n| Entry three[^lolo] | Entry four  |\n| Entry five      | Entry six   |\n| Entry seven     | Entry eight |\n\n: An example table with notes {#tbl-notes}\n\n[^1]: This is a footnote\n\n[^lolo]: This is a second note\n\n![An example scheme](imagenes/gato_siames.jpg){#fig-el_gato}\n\n\nLa figura @fig-elephants puchis pushis \n\n\n::: {#fig-elephants layout-ncol=2}\n\n![gato1](imagenes/gato_siames.jpg){#fig-surus}\n\n![Gato 2](imagenes/gato_siames.jpg){#fig-hanno}\n\nLos famosos gatos siames \n:::\n\n<\\break>\n\n\n\n\n::: {.cell figecho='false'}\n::: {.cell-output-display}\n![**Esquema de metodología**. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu.](imagenes/gato_siames.jpg){#fig-metodologia fig-pos='H' width=50%}\n:::\n:::\n\n\n\n\n<\\break>\n\n# Lorem ipsum dolor sit ame\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sapien nibh, accumsan eu congue vitae, tempus et odio. Aenean porttitor porta quam, sit amet malesuada ipsum tincidunt quis. Duis id nulla ac urna suscipit interdum nec vitae sapien. Cras id malesuada augue. Nullam fermentum, massa at gravida condimentum, erat lacus placerat nisl, quis placerat metus erat ac nisi. Pellentesque id purus urna. Suspendisse ac facilisis lacus. Maecenas sit amet quam volutpat tellus dignissim rutrum. Donec id sodales mauris.",
+    "supporting": [
+      "Introduccion_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
